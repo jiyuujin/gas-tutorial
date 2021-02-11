@@ -10,6 +10,9 @@ module.exports = {
   },
 
   resolve: {
+    alias: {
+      '~': path.resolve('src'),
+    },
     extensions: ['.ts'],
   },
 
