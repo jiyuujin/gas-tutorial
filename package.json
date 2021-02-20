@@ -13,7 +13,6 @@
     "@types/google-apps-script": "1.0.22",
     "@types/node": "14.14.25",
     "cpx": "1.5.0",
-    "dotenv": "8.2.0",
     "gas-webpack-plugin": "1.2.2",
     "ts-loader": "8.0.15",
     "typescript": "4.1.3",
