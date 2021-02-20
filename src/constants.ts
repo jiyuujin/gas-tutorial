@@ -1,3 +1,3 @@
-require('dotenv').config()
+import { getPropertyValue } from '~/utils'
 
-export const SLACK_INCOMING_API = process.env.SLACK_INCOMING_API
+export const SLACK_INCOMING_API = getPropertyValue('SLACK_INCOMING_API')
